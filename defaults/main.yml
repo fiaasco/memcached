@@ -1,0 +1,17 @@
+---
+
+## description: address for memcached to listen on
+## type: string
+memcached_listen_address: 127.0.0.1
+
+## description: port for memcached to listen on
+## type: int
+memcached_listen_port: 11211
+
+## description: amount of memory for memcached
+## type: int
+memcached_memory: 64
+
+## description: number of simultaneous incoming connections.
+## type: int
+memcached_connections: 1024
